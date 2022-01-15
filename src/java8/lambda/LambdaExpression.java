@@ -23,7 +23,7 @@ public class LambdaExpression {
         Arrays.setAll(arr, (i) -> (int)(Math.random()*5)+1);
 
         for (int i : arr) {
-            System.out.println(i);
+            System.out.println(i);//
         }
     }
 }
