@@ -13,7 +13,7 @@ public class LambdaExpression {
         });
 
         thread1.start();
-        ///
+        ////
 
         // 람다 표현식으로 단순하게 표현
         Thread thread2 = new Thread(() -> System.out.println("Start to new thread!"));
