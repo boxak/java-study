@@ -8,7 +8,7 @@ public class Main {
                 return driveLevel == 0 ? "" : "자동차가 " + driveLevel + " 의 속도로 이동합니다.";
             }
         };
-
+////
         System.out.println(car1.drive(10));
 
         // 람다 표현식
